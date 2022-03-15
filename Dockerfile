@@ -1,5 +1,7 @@
 FROM golang:1.17-alpine
 
+RUN apt-get install
+
 WORKDIR /app
 
 COPY go.mod ./
